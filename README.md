@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Run pdk validate
-      uses: puppets-epic-show-theatre/action-pdk-validate@v1
+      uses: edrude/action-pdk-build@v1
       with:
         puppet-version: ""
         # [optional]
